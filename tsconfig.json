@@ -4,6 +4,8 @@
     "module": "CommonJS",
     "target": "es6",
     "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
