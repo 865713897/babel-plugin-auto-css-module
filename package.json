@@ -21,8 +21,15 @@
     "build": "unbuild",
     "build:tsc": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["babel-plugin", "css-module", "typescript"],
+  "author": {
+    "name": "limy",
+    "email": "lmy865713897@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/865713897/babel-plugin-auto-css-module.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.24.7"
