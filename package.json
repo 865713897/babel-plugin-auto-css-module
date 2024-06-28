@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-auto-css-module",
+  "version": "1.0.0",
+  "description": "自动添加css文件后缀的babel插件",
+  "main": "lib/index.cjs",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    "import": {
+      "types": "./lib/index.d.mts",
+      "default": "./lib/index.mjs"
+    },
+    "require": {
+      "types": "./lib/index.d.cts",
+      "default": "./lib/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "unbuild",
+    "build:tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.7"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2",
+    "unbuild": "^2.0.0"
+  }
+}
